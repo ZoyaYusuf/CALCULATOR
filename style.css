@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 50px;
+    font-family: futura medium;
+}
+
+h3{
+    color: aliceblue;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 30px;
+    font-family: futura medium;
+}
+
+#ans{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#result{
+    height: 50px;
+    width: 350px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.803);
+    font-size: 30px;
+    box-shadow:2px 2px 8px rgb(251, 179, 25) ;
+}
+
+#numbers{
+    height: 500px;
+    width: 400px;
+    margin-left: 510px;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: rgba(0, 0, 255, 0.073);
+    border-radius: 10%;
+    border:2px rgba(255, 255, 255, 0.566) solid;
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#numbers button{
+    height:90px;
+    width:90px;
+    margin: 2px;
+    font-size: 30px;
+    border-radius: 20%;
+    background-color: rgba(255, 255, 255, 0.803);
+
+}
+
+#numbers button:active{
+    border-radius: 25%;
+    box-shadow:2px 2px 8px rgb(232, 235, 231) ;
+}
